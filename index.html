@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harry Hari</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortut icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="logo.png">
+			</div>
+			<ul class="nav1" id="mobileclick">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="GALLERY.HTML">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="mobile"><a href="javascript:void(0);" onclick="mobilemenu()">&#9776;</a></li>
+			</ul>
+		</div>
+
+<script>
+	funtion mobilemenu() {
+		var x = document.getElementById("mobileclick");
+		if (x.className === "nav1") {
+			x.className += "responsive";
+		}else{
+			x.className = "nav1";
+		}	
+	}
+</script>
+
+		<div class="title">
+			<h1>Harry Hari</h1>
+		</div>
+		<div class="button">
+			<a href="https://www.instagram.com/_browny_bad_boy_/" class="btn">INSTAGRAM</a>
+			<a href="https://www.facebook.com/jayam.haran.549" class="btn1">FACEBOOK</a>
+		</div>
+	</header>	
+</body>
+</html>
